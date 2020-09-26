@@ -51,8 +51,6 @@ fi
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ls='lsd'
-
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -66,3 +64,6 @@ alias lt='ls --tree'
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
+#enable z.sh
+. ~/z.sh
